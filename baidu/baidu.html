@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>百度首页</title>
+    <style>
+        .leftDiv{
+            height: 50px;
+            width: auto;
+            float: left;
+            margin-left: 10px;
+        }
+        .rightDiv{
+            height: 50px;
+            width: 100px;
+            float: right;
+            margin-right: 30px;
+        }
+        .headDiv{
+            height: 50px;
+            width: auto;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .a1{
+            text-decoration: initial;
+            font-size: 14px;
+            margin-left: 20px;
+            color: black;
+        }
+        .a2{
+            text-decoration: initial;
+            font-size: 14px;
+            color: black;
+            float: left;
+        }
+        .a3{
+            width: 41px;
+            height: 22px;
+            text-decoration: initial;
+            font-size: 13px;
+            color: white;
+            background-color: #1f7aff;
+            text-align: center;
+            line-height: 20px;
+            float: right;
+            border-radius: 5px;
+        }
+        /* 输入框和按钮 */
+        .threeDiv{
+            text-align: center;
+            width: 600px;
+            height: 40px;
+            margin: auto;
+            margin-top: 10px;
+        }
+        /* 输入框 */
+        .inputDiv{
+            width: 482px;
+            float: left;
+            height: 40px;
+            border-color: #668B8B;
+            border-bottom-left-radius: 15px;
+            border-top-left-radius: 15px;
+        }
+        /* 百度一下按钮 */
+        .baiduDiv{
+            background-color: #1f7aff;
+            color: white;
+            font-size: 18px;
+            width: 110px;
+            height: 46px;
+            float: right;
+            text-align: center;
+            line-height: 42px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+        /* 相机图标位置 */
+        .image1 {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        /* 百度图标位置 */
+        .image1{
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        /* 百度热搜 */
+        .hotDiv{
+            text-align: center;
+            width: 550px;
+            height: auto;
+            margin-left: 30%;
+            margin-top: 40px;
+        }
+        .hot{
+            float: left;
+            width: 100%;
+            height: 36px;
+            text-align: left;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+        .hotBig{
+            width: 100%;
+            height: 30px;
+            float: left;
+        }
+        .hotLeft{
+            float: left;
+            height: auto;
+            width: 45%;
+            font-size: 13px;
+            text-align: left;
+        }
+        .hotRight{
+            float: right;
+            height: auto;
+            width: 47%;
+            color: black;
+            font-size: 13px;
+            text-align: left;
+        }
+        .hotRight2{
+            float: right;
+            height: auto;
+            width: 10%;
+            color: black;
+            font-weight: normal;
+            font-size: 13px;
+            text-align: left;
+        }
+        x{
+            color: #ff0404;
+        }
+        y{
+            color: #ff9204;
+        }
+        z{
+            color: #ffcc00;
+        }
+        /* 底部标签 */
+        .bottomDiv{
+            width: 100%;
+            height: 25px;
+            position: absolute;
+            bottom: 0px;
+            margin-left: 50px;
+        }
+        .bottom{
+            font-size: 12px;
+            color: #b0b7bb;
+            text-decoration: initial;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body style="font-family: sans-serif;">
+<!-- 头部栏目 -->
+<div class="headDiv">
+    <!-- 头部左侧栏目 -->
+    <div class="leftDiv">
+        <a href="http://news.baidu.com/" class="a1">新闻</a>
+        <a href="https://www.hao123.com/" class="a1">hao123</a>
+        <a href="https://map.baidu.com/@13211798.77,2842902.63,12z" class="a1">地图</a>
+        <a href="https://live.baidu.com/" class="a1">贴吧</a>
+        <a href="https://haokan.baidu.com/?sfrom=baidu-top" class="a1">视频</a>
+        <a href="https://tieba.baidu.com/index.html" class="a1">图片</a>
+        <a href="https://xueshu.baidu.com/" class="a1">网盘</a>
+        <a href="https://www.baidu.com/more/" class="a1">更多</a>
+    </div>
+    <!-- 头部右侧栏目 -->
+    <div class="rightDiv">
+        <div href="" class="a2">设置</div>
+        <div href="" class="a3">登录</div>
+    </div>
+</div>
+<!-- 百度图标 -->
+<div class="image1" >
+    <a href="https://www.baidu.com/">
+        <img src="国庆百度logo.png" alt="百度图标" width="300px" height="auto">
+    </a>
+</div>
+<!-- 输入框总体 -->
+<div class="threeDiv">
+    <!-- 输入框 -->
+    <p style="font-size: 20px;">
+        <input type="text" class="inputDiv">
+    </p>
+    <!-- 百度一下按钮 -->
+    <a href="https://www.baidu.com/">
+        <div class="baiduDiv" >百度一下</div>
+    </a>
+</div>
+<!-- 百度热搜 -->
+<div class="hotDiv">
+    <!-- 标题 -->
+    <div class="hot">百度热搜
+        <img src="向右箭头.png" alt="箭头" width="10px" height="auto">
+        <div class="hotRight2">
+        <img src="换一换.png" alt="换一换" width="12px" height="auto">&nbsp;<a href="">换一换</a>
+        </div>
+    </div>
+    <!-- 第一行 -->
+    <div class="hotBig">
+        <div class="hotLeft">
+            <x>1</x>&nbsp;&nbsp;  中国启动第四批预备航天员选拔</div>
+        <div class="hotRight">3&nbsp;&nbsp;  大美中国每一帧都是屏保</div>
+    </div>
+    <!-- 第二行 -->
+    <div class="hotBig">
+        <div class="hotLeft" ><y>2</y>&nbsp;&nbsp;  2022年诺贝尔生理学或医学奖揭晓
+            <img src="热2.png" alt="热搜" width="15px" height="auto">
+        </div>
+        <div class="hotRight">4&nbsp;&nbsp;  韩国建军节宣传片出现中国装甲车</div>
+    </div>
+    <!-- 第三行 -->
+    <div class="hotBig">
+        <div class="hotLeft"><z>3</z>&nbsp;&nbsp;  俄国家杜马批准四地“入俄”条约</div>
+        <div class="hotRight">5&nbsp;&nbsp;  安卓灵动岛App下载安装量超100万次</div>
+    </div>
+</div>
+<!-- 底部栏目 -->
+<div class="bottomDiv">
+    <a href="https://home.baidu.com/" class="bottom">关于百度</a>
+    <a href="https://ir.baidu.com/" class="bottom">About Baidu</a>
+    <a href="https://www.baidu.com/duty/" class="bottom">使用百度前必读</a>
+    <a href="https://help.baidu.com/" class="bottom">帮忙中心</a>
+    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" class="bottom">京公网安备11000002000001号</a>
+    <a href="https://beian.miit.gov.cn/#/Integrated/index" class="bottom">京ICP证030173号</a>
+    <a href="https://www.baidu.com/licence/" class="bottom">信息网络传播视听服务许可证0110516</a>
+    <a href="" class="bottom">互联网宗教信息服务许可证编号:京(2002) 0000043</a>
+    <a href="https://www.baidu.com/" class="bottom">
+        <img src="向上箭头.png" alt="向上箭头" width="12px" height="12px">
+    </a>
+</div>
+</body>
+</html>
